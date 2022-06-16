@@ -2,7 +2,7 @@ const request = require('supertest')
 
 const app = require('./app')
 
-describe("/posts", ()=>{
+describe("Posts service", ()=>{
     const title = "A post"
     let createdId
     it('POST /posts responds with a Post object with id and title', async ()=>{
