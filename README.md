@@ -8,3 +8,8 @@ In this section I was presented to definitions and introduction to common proble
 - What is Microservices.
 - How usually data is stored in Microservices and common problems with that.
 - The common communication flow between Microservices.
+
+## Section 2: Mini microservices example
+
+### What i incremented
+1. Added tests with jest and supertest to simplify any manual testing in Post and Comments servce
